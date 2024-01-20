@@ -10824,3 +10824,24 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+.tooltipDiv{
+position: relative;
+display: inline-block;
+}
+.tooltipDiv .tooltip-text {
+  visibility: hidden;
+  width: 90px;
+  background-color: violet;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltipDiv:hover .tooltip-text {
+  visibility: visible;
+}
